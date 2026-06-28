@@ -1,0 +1,25 @@
+mobius:
+  repository: mobius-voice
+  department: Sonic
+  domain: Audio Intelligence
+  service: Voice Capture and Meeting Intelligence
+  canon_version: pending-mobius-canon
+  architecture_version: 1.0.0
+  sync_status: synchronized
+  consumes:
+    - audio-input
+    - meeting-audio
+    - language-context
+  produces:
+    - voice-intelligence-output
+    - speaker-map
+    - voice-confidence-index
+    - memory-ready-output
+  depends_on:
+    - mobius-router
+    - atlas-core
+    - mobius-docs
+  governance:
+    approval_workflow: true
+    consent_required_for_voice_identity: true
+    verification_required_before_memory: true
