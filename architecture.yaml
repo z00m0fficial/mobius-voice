@@ -1,0 +1,26 @@
+repository: mobius-voice
+version: 1.0.0
+status: foundation
+classification: internal-platform
+primary_layer: audio-intelligence
+department: Sonic
+mission: Transform every spoken interaction into verified organizational intelligence.
+capabilities:
+  - audio-capture
+  - transcription
+  - cleanup
+  - multilingual-intake
+  - dialect-understanding
+  - speaker-diarization
+  - consent-based-speaker-verification
+  - meeting-intelligence
+  - voice-to-task
+  - voice-confidence-index
+  - router-output
+  - atlas-memory-output
+quality_gates:
+  consent_required_for_voice_identity: true
+  verification_required_before_memory: true
+  raw_transcript_preserved: true
+  clean_transcript_required: true
+  confidence_scores_required: true
